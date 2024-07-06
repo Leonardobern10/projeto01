@@ -58,7 +58,7 @@ const Weather = () => {
 
   useEffect(() => {
     search(weatherData.valueOf);
-  }, []);
+  }, [search, weatherData.valueOf]);
 
   return (
     <div className="weather">
